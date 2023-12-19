@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mdiv{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    /* background-color: gray; */
+}
+.page{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    border: 2px solid black;
+}
+.wimage{
+    position: absolute;
+    /* height: 500px; */
+ height: 598px;
+ width: 100%;
+    background-image: url('https://images5.alphacoders.com/117/1179924.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
