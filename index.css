@@ -29,12 +29,12 @@
   /* display: flex; */
   z-index: 5;
 }
+
 .list {
   margin-left: 60px;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  -webkit-box-reflect
 }
 .navlist {
   position: absolute;
@@ -105,35 +105,35 @@ html {
   -webkit-filter: blur(3px);
   z-index: -5;
 }
-.sun{
-    display: flex;
+.sun {
+  display: flex;
 }
-.mp{
-    position: absolute;
-    padding: 100px;
+.mp {
+  position: absolute;
+  padding: 100px;
 }
-.m{
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    background-color: grey;
-    left: 20px;
-    padding: 50px;
+.m {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  left: 20px;
+  padding: 50px;
 }
-.wtext{
-    position: absolute;
-    height: 400px;
-    width: 600px;
-    top: 160px;
-    left: 100px;
-    background-color: gray;
+.wtext {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  top: 160px;
+  left: 100px;
+  background-color: gray;
 }
 
-table{
-    width: 100%;
+table {
+  width: 100%;
 }
-td{
-    height: 50px;
-    width: 20%;
-    background-color: aqua;
+td {
+  height: 50px;
+  width: 20%;
+  background-color: aqua;
 }
