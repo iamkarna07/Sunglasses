@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mdiv {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-image: url("https://wallpapercave.com/wp/wp2366362.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.login-heading {
+  margin-top: 80px;
+}
+.login-heading h1 {
+  font-size: 100px;
+  color: rgb(12, 42, 68);
+  font-family: AriaL Black;
+}
+.tracking-in-contract-bck {
+  -webkit-animation: tracking-in-contract-bck 4s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck 4s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1cm;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translatez(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.login_form {
+  height: 400px;
+  width: 30%;
+  background-color: transparent;
+  background-filter: blur(20px);
+  margin-left: 35%;
+  margin-top: 3%;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px white;
+  padding: 30px;
+}
+input {
+  width: 80%;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}
+input[type="button"] {
+  height: 60px;
+  border: none;
+  background-color: white;
+  margin: 20px;
+  color: cadetblue;
+  font-family: Arial black;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 90%;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+inpur[type="button"]:hover {
+  transform: scale(0.9);
+  background-color: transparent;
+  color: white;
+  border: 5px solid white;
+}
+.links {
+  margin-top: 20px;
+}
+link {
+  color: royalblue;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+.rabbit {
+  position: fixed;
+  bottom: -40px;
+  right: 0px;
+    width: 100%;
+}

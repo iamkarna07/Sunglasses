@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://www.colamalls.com/image/cache/catalog/demo/product/18-560x630.jpg?v=1673670348"
+    />
+    <link rel="stylesheet" href="login.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="mdiv">
+      <div class="login-heading">
+        <h1 align="center" class="tracking-in-contract-bck">LOGIN</h1>
+      </div>
+      <div class="login_form">
+        <div class="form_login" align="center">
+          <form action="" method="" autocomplete="off">
+            <input type="text" name="username" placeholder="USERNAME" id="un" />
+
+            <input
+              type="password"
+              name="password"
+              placeholder="PASSWORD"
+              id="pwd"
+            />
+            <p class="links"><a href="a">forgot password ?</a></p>
+            <input
+              type="button"
+              name="LOGIN"
+              value="LOGIN"
+              onclick="submitform()"
+            />
+            <p class="links"><a href="a">Create Account</a></p>
+          </form>
+        </div>
+      </div>
+
+      <script>
+        let un1 = "admin";
+        let pwd1 = "admin";
+
+        function submitform() {
+          let un2 = document.getElementById(un).value;
+          let pwd2 = document.getElementById(pwd).value;
+
+          if (un1 == un2 && pwd1 == pwd2) {
+            open(projectsukonomi.html);
+          } else {
+            alert("Incorrect Credential");
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>
