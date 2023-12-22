@@ -607,9 +607,9 @@ div > h6 {
   left: 990px;
 }
 .cart {
-  height: 50px;
-  width: 100px;
-
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
   color: whitesmoke;
   background-color: royalblue;
 }

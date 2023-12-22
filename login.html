@@ -7,7 +7,7 @@
       rel="icon"
       href="https://www.colamalls.com/image/cache/catalog/demo/product/18-560x630.jpg?v=1673670348"
     />
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="Login.css" />
 
     <title>Login</title>
   </head>
@@ -44,11 +44,11 @@
         let pwd1 = "admin";
 
         function submitform() {
-          let un2 = document.getElementById(un).value;
-          let pwd2 = document.getElementById(pwd).value;
+          let un2 = document.getElementById(`un`).value;
+          let pwd2 = document.getElementById(`pwd`).value;
 
           if (un1 == un2 && pwd1 == pwd2) {
-            open(projectsukonomi.html);
+            open(`index.html`);
           } else {
             alert("Incorrect Credential");
           }
